@@ -1,7 +1,7 @@
 # BASIC AUTH
 proxy:
   ### PERSONALIZATION ###
-  title: "ShinyStudio: ${SITEPORT}"
+  title: "BHGE Explorer: ${SITEPORT}"
   hide-navbar: false
   ### AUTHENTICATION ###
   admin-groups: ['admins', 'superadmins']
@@ -13,8 +13,8 @@ proxy:
   - name: admin
     password: admin
     groups: admins
-  - name: user
-    password: user
+  - name: bhge_user
+    password: bhge_pass
     groups: readers
   ### DANGER ZONE ###
   port: 8080 # LEAVE ME ALONE
